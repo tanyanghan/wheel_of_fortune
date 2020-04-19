@@ -1,0 +1,102 @@
+[
+    {
+        "number":1,
+        "input":"May the Force be with you.", 
+        "source":"Star Wars, 1977"
+    },
+    {
+        "number":2,
+        "input":"There's no place like home.", 
+        "source":"The Wizard of Oz, 1939"
+    },
+    {
+        "number":3,
+        "input":"I'm the king of the world!",
+        "source":"Titanic, 1997"
+    },
+    {
+        "number":4,
+        "input":"Roads? Where we're going we don't need roads.",
+        "source":"Back to the Future, 1985"
+    },
+    {
+        "number":5,
+        "input":"Elementary, my dear Watson.",
+        "source":"The Adventures of Sherlock Holmes, 1939"
+    },
+    {
+        "number":6,
+        "input":"It's alive! It's alive!",
+        "source":"Frankenstein, 1931"
+    },
+    {
+        "number":7,
+        "input":"My mama always said life was like a box of chocolates. You never know what you're gonna get.",
+        "source":"Forrest Gump, 1994"
+    },
+    {
+        "number":8,
+        "input":"I'll be back.",
+        "source":"The Terminator, 1984"
+    },
+    {
+        "number":9,
+        "input":"You're gonna need a bigger boat.",
+        "source":"Jaws, 1975"
+    },
+    {
+        "number":10,
+        "input":"That'll do, pig. That'll do.",
+        "source":"Babe, 1995"
+    },
+    {
+        "number":11,
+        "input":"My precious.",
+        "source":"The Lord of the Rings: Two Towers, 2002"
+    },
+    {
+        "number":12,
+        "input":"Houston, we have a problem.",
+        "source":"Apollo 13, 1995"
+    },
+    {
+        "number":13,
+        "input":"Hasta la vista, baby.",
+        "source":"Terminator 2: Judgment Day, 1991"
+    },
+    {
+        "number":14,
+        "input":"E.T. phone home.",
+        "source":"E.T. the Extra-Terrestrial, 1982"
+    },
+    {
+        "number":15,
+        "input":"To infinity and beyond!",
+        "source":"Toy Story, 1995"
+    },
+    {
+        "number":16,
+        "input":"A martini. Shaken, not stirred.",
+        "source":"Goldfinger, 1964"
+    },
+    {
+        "number":17,
+        "input":"Magic Mirror on the wall, who is the fairest one of all?",
+        "source":"Snow White and the Seven Dwarfs, 1937"
+    },
+    {
+        "number":18,
+        "input":"Keep your friends close, but your enemies closer.",
+        "source":"The Godfather Part II, 1974"
+    },
+    {
+        "number":19,
+        "input":"I am your father.",
+        "source":"Star Wars Episode V: The Empire Strikes Back, 1980"
+    },
+    {
+        "number":20,
+        "input":"You talking to me?",
+        "source":"Taxi Driver, 1976"
+    }
+]
