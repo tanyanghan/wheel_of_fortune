@@ -13,17 +13,17 @@ You need to supply it a JSON file containing a list of dictionary with "number",
 
 Example JSON files are given in `movie_quotes.json` and `bible_verses.json`.
 
-Usage: 
+Usage:
 ```
 python3 wheel_of_fortune.py -i movie_quotes.json
 ```
 Required argument:
 ```
-    -i, --input_file.     Specifies the input JSON file
+    -i, --input_file    Specifies the input JSON file
 ```
 
 Other optional arguments are:
 ```
-    -t, --title   		Specifies the title to display in a text box at the top of a game.
+    -t, --title         Specifies the title to display in a text box at the top of a game.
     -w, --screen_width  The number of characters you want to be your screen width 
 ```
