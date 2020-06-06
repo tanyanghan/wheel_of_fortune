@@ -15,6 +15,11 @@ def parseOptions():
         help="(OPTIONAL) Width of the screen",
         action="store", required=False, default=80)
 
+    parser.add_argument("-d", "--debug_level", 
+        help="Select the debug level (default level INFO)",
+        action="store", required=False, default="INFO",
+        choices=["DEBUG","INFO","ERROR"])
+
     args = parser.parse_args()
 
     return args
@@ -54,11 +59,23 @@ if __name__ == "__main__":
     # parse the command line options
     args = parseOptions()
 
+    if args.debug_level == "DEBUG":
+        logging_level = logging.DEBUG
+    elif args.debug_level == "INFO":
+        logging_level = logging.INFO
+    elif args.debug_level == "ERROR":
+        logging_level = logging.ERROR
+
+    # set up basic logging
+    logging.basicConfig(level=logging_level, format='%(asctime)s %(funcName)15s %(levelname)8s: %(message)s')
+
     # generate the title text box
     my_title = generate_title(args.title, args.screen_width)
 
     # load the JSON file as provided by the command line option
     input_list = load_list(args.input_file)
+
+
 
     # initiate a list of punctuation marks that you do not want the text
     # replaced with a hypen to indicate a characater placeholder
